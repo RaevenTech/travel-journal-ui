@@ -1,0 +1,15 @@
+
+.card {
+    display: flex;
+    margin: 18px 40px;
+    gap:20px;
+}
+.card_image {
+    width: 125px;
+    height: 168px;
+}
+.card_img {
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+}
