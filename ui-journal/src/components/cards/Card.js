@@ -1,5 +1,6 @@
 import React from "react";
 import "./card.css";
+import locationPin from "../../assets/location_pin.png";
 
 const Card = () => {
     return (
@@ -13,7 +14,11 @@ const Card = () => {
             </div>
             <div className="card_details">
                 <div className="card_location">
-                    <img src="" alt="" className="card_location_icon" />
+                    <img
+                        src={locationPin}
+                        alt="location"
+                        className="card_location_icon"
+                    />
                     <span className="card_location">JAPAN</span>
                     <span>
                         <a className="card_location_link" href="www.google.com">
